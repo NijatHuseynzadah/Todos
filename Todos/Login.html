@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Login_Page/style2/login.css">
+    <style>
+        .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('Register/img/Skyline-New-York.jpg') center/cover fixed no-repeat;
+        opacity: 0.5;
+        z-index: -1;
+        filter: blur(1.5px) brightness(0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <form>
+        <h1>Login</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input class="place"  type="text" id="name">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input class="place" type="text" id="password">
+        </div>
+        
+    <button class="btn" disabled>Submit</button>
+    <a href="./Register.html">Don't have an account</a>
+    </form>
+    <script src="./Login_Page/script2/code.jquery.com_jquery-3.7.1.min (1).js"></script>
+    <script src="./Login_Page/script2/login.js"></script>
+</body>
+</html>
